@@ -1,0 +1,27 @@
+//Variable
+@import "variable";
+@import "button";
+
+body {
+    background-color: $primary-color ;
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    color: $light;
+    font-family: $main-font;
+}
+
+nav {
+    background-color: $dark;
+    padding: 15px;
+
+    a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 10px;
+        color: $light;
+    }
+}

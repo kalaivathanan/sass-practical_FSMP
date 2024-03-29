@@ -1,0 +1,18 @@
+.btn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-danger {
+    background-color: $bg-danger-color;
+}
+
+.btn-success {
+    background-color: $bg-success-color;
+}
+
+.btn-primary {
+    background-color: $bg-primary-color;
+}
