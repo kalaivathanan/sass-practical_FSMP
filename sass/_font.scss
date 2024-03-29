@@ -1,0 +1,18 @@
+$bass-font: 1rem;
+
+$large-font : $bass-font*2;
+$larger-font : $bass-font*4;
+
+@use "sass:math";
+
+@debug math.max(10px, 4px, 25px);
+@debug math.ceil(25.32);
+@debug math.floor(25.82);
+@debug math.abs(-10px);
+@debug math.sqrt(100);
+@debug math.pow(10, 2);
+@debug math.is-unitless(10);
+@debug math.is-unitless(10px);
+@debug math.unit(10px);
+@debug math.compatible(10px, 1px);
+@debug math.div(10px, 2px);

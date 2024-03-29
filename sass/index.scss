@@ -1,6 +1,7 @@
 //Variable
 @import "variable";
 @import "button";
+@import "font";
 
 body {
     background-color: $primary-color ;
@@ -12,6 +13,7 @@ body {
 p {
     color: $light;
     font-family: $main-font;
+    font-size: $bass-font;
 }
 
 nav {
